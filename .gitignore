@@ -1,0 +1,15 @@
+# Whisper + diarization weights, ~151MB, downloaded on first run
+models/
+
+# Meeting audio and transcripts. These are recordings of real conversations and
+# must never be committed -- see the consent note in the README.
+*.wav
+*.aiff
+*.m4a
+*.mp3
+*.mp4
+*-transcript.txt
+
+__pycache__/
+*.pyc
+.venv/
