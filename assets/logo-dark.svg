@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-label="meeting-notes">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1113"/>
+      <stop offset="1" stop-color="#1b2126"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(10,10)">
+    <rect width="160" height="160" rx="36" fill="url(#g)"  stroke="#262a2e" stroke-width="2"/>
+
+    <rect x="22" y="34" width="116" height="40" rx="10" fill="#2BD9FF" opacity="0.10"/>
+    <g stroke="#2BD9FF" stroke-width="7" stroke-linecap="round">
+      <path d="M34 54 v-13"/><path d="M50 54 v-22"/><path d="M66 54 v-9"/>
+      <path d="M82 54 v-19"/><path d="M98 54 v-11"/><path d="M114 54 v-16"/>
+      <path d="M126 54 v-7"/>
+    </g>
+    <path d="M22 66 H138" stroke="#2f363c" stroke-width="3" stroke-linecap="round"/>
+    <rect x="22" y="86" width="116" height="40" rx="10" fill="#FFB74D" opacity="0.10"/>
+    <g stroke="#FFB74D" stroke-width="7" stroke-linecap="round">
+      <path d="M34 92 v16"/><path d="M50 92 v8"/><path d="M66 92 v21"/>
+      <path d="M82 92 v12"/><path d="M98 92 v24"/><path d="M114 92 v10"/>
+      <path d="M126 92 v15"/>
+    </g>
+  </g>
+  <text x="200" y="92" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="66" font-weight="700" fill="#ECECEC" letter-spacing="-2">meeting<tspan fill="#2BD9FF">notes</tspan></text>
+  <text x="203" y="134" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#9A9A9A">free, offline, who-said-what transcripts</text>
+</svg>
